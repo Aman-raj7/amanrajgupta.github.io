@@ -9,109 +9,127 @@
 
 <body>
 
-<header>
-  <h1>Aman Raj Gupta</h1>
-  <p><span id="typing"></span></p>
+<!-- Animated Background -->
+<div class="bg-grid"></div>
 
-  <div class="buttons">
-    <a href="#projects">View Work</a>
+<header class="hero">
+  <h1>Aman Raj Gupta</h1>
+  <p class="typing"></p>
+
+  <div class="hero-buttons">
+    <a href="#work">View Work</a>
     <a href="resume.pdf" download class="secondary">Download Resume</a>
   </div>
 </header>
 
-<section>
+<section class="about">
   <h2>About Me</h2>
   <p>
-    I’m an Automation & Analytics professional at Amazon with 3+ years of experience
-    building tools that make work faster, simpler, and more reliable. I’ve built
-    30+ automation and analytics tools used globally, including AI chatbots and
-    bulk-processing solutions that resolved 30,000+ cases and saved 300+ hours.
+    Automation & Analytics professional at <strong>Amazon</strong> with 3+ years of hands-on
+    experience building tools that make work faster, simpler, and more reliable.
+    I’ve built <strong>30+ automation and analytics tools</strong> used globally,
+    including AI-driven solutions and bulk-processing tools that resolved
+    <strong>30,000+ cases</strong> and saved <strong>300+ hours</strong>.
   </p>
 </section>
 
-<section id="projects">
+<section id="work">
   <h2>Featured Work</h2>
 
-  <div class="project-grid">
+  <div class="grid">
 
     <div class="card">
-      <span class="tag">AI • Automation</span>
+      <span class="badge">AI · Automation</span>
       <h3>AI SME Bot</h3>
-      <p class="desc">AI-powered internal chatbot providing instant process and compliance support.</p>
-      <p class="impact"><strong>Impact:</strong> Reduced SME dependency and faster query resolution</p>
-      <p class="tech"><strong>Tech:</strong> Python, AI/NLP concepts, AWS</p>
+      <p>AI-powered internal chatbot providing instant process and compliance support.</p>
+      <ul>
+        <li>Reduced SME dependency</li>
+        <li>Faster query resolution</li>
+        <li>Used by global teams</li>
+      </ul>
+      <p class="tech">Python · AI/NLP · AWS</p>
       <a href="ai-sme-bot.html">View Case Study →</a>
     </div>
 
     <div class="card">
-      <span class="tag">Automation • Scale</span>
+      <span class="badge">Scale · Productivity</span>
       <h3>Bulk Closing Automation Tool</h3>
-      <p class="desc">Automation solution designed for large-scale case resolution.</p>
-      <p class="impact"><strong>Impact:</strong> 30K+ cases resolved, 300+ hours saved</p>
-      <p class="tech"><strong>Tech:</strong> Python, SQL, Advanced Excel</p>
+      <p>Automation solution designed for large-scale case resolution.</p>
+      <ul>
+        <li>30K+ cases resolved</li>
+        <li>300+ hours saved</li>
+        <li>SLA breaches prevented</li>
+      </ul>
+      <p class="tech">Python · SQL · Advanced Excel</p>
       <a href="bulk-closing-tool.html">View Case Study →</a>
     </div>
 
     <div class="card">
-      <span class="tag">Productivity</span>
+      <span class="badge">Efficiency</span>
       <h3>One-Click Document Review Tool</h3>
-      <p class="desc">Automation tool enabling instant document access during reviews.</p>
-      <p class="impact"><strong>Impact:</strong> Reduced AHT and reviewer effort</p>
-      <p class="tech"><strong>Tech:</strong> Python, Automation Scripts</p>
+      <p>Automation enabling instant document access during compliance reviews.</p>
+      <ul>
+        <li>Reduced AHT</li>
+        <li>Improved reviewer efficiency</li>
+      </ul>
+      <p class="tech">Python · Automation</p>
     </div>
 
     <div class="card">
-      <span class="tag">Monitoring</span>
+      <span class="badge">Monitoring</span>
       <h3>AHT & SLA Monitoring Tool</h3>
-      <p class="desc">Automated monitoring system to help teams maintain SLA and productivity.</p>
-      <p class="impact"><strong>Impact:</strong> Improved SLA adherence and productivity</p>
-      <p class="tech"><strong>Tech:</strong> Python, SQL, Email Automation</p>
+      <p>Automated system to track productivity and SLA adherence.</p>
+      <ul>
+        <li>Improved SLA compliance</li>
+        <li>Boosted team productivity</li>
+      </ul>
+      <p class="tech">Python · SQL · Email Automation</p>
     </div>
 
   </div>
 </section>
 
-<section>
-  <h2>Impact</h2>
-  <ul>
-    <li>30+ automation & analytics tools built</li>
-    <li>30,000+ cases resolved through automation</li>
-    <li>300+ operational hours saved</li>
-    <li>Tools adopted by global teams</li>
-  </ul>
+<section class="impact">
+  <h2>Impact at Scale</h2>
+  <div class="stats">
+    <div><span>30+</span>Tools Built</div>
+    <div><span>30K+</span>Cases Resolved</div>
+    <div><span>300+</span>Hours Saved</div>
+    <div><span>Global</span>Adoption</div>
+  </div>
 </section>
 
-<section>
+<section class="awards">
   <h2>Awards & Recognition</h2>
   <ul>
-    <li>Erudite – Mentoring & Training</li>
-    <li>Eureka – Automation & Tools</li>
-    <li>Ace of Spades – Highest Productivity</li>
-    <li>Beyond – Tech Innovation & Hackathons</li>
+    <li>🏆 Erudite – Mentoring & Training</li>
+    <li>🏆 Eureka – Automation & Analytics Tools</li>
+    <li>🏆 Ace of Spades – Highest Productivity</li>
+    <li>🏆 Beyond – Tech Innovation & Hackathons</li>
   </ul>
 </section>
 
-<section>
+<section class="contact">
   <h2>Contact</h2>
-  <p>Email: amanraj250698@gmail.com</p>
-  <p>LinkedIn: linkedin.com/in/aman-raj-gupta-tech</p>
+  <p>📧 amanraj250698@gmail.com</p>
+  <p>💼 linkedin.com/in/aman-raj-gupta-tech</p>
 </section>
 
 <footer>
-  <p>© 2025 Aman Raj Gupta</p>
+  © 2025 Aman Raj Gupta
 </footer>
 
 <script>
 const text = "Automation & Analytics Engineer | AI-Driven Productivity";
 let i = 0;
-function typeEffect() {
+const target = document.querySelector(".typing");
+function type() {
   if (i < text.length) {
-    document.getElementById("typing").innerHTML += text.charAt(i);
-    i++;
-    setTimeout(typeEffect, 60);
+    target.innerHTML += text.charAt(i++);
+    setTimeout(type, 60);
   }
 }
-typeEffect();
+type();
 </script>
 
 </body>
